@@ -1,0 +1,11 @@
+# Silicon LogiX / SLX SeaBalance
+# Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+# Author: Marco Pezzullo
+# License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+
+* -text
+*.glb binary
+*.png binary
+*.ico binary
+*.dll binary
+*.so binary

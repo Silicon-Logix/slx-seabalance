@@ -1,0 +1,6 @@
+// Silicon LogiX / SLX SeaBalance
+// Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+// Author: Marco Pezzullo
+// License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+
+GLFW_ICON ICON "@SLX_PC_ICON@"

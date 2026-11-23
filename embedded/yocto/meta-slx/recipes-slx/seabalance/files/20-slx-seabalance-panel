@@ -1,0 +1,16 @@
+#!/bin/sh
+# Silicon LogiX / SLX SeaBalance
+# Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+# Author: Marco Pezzullo
+# License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+
+export GDK_BACKEND=wayland
+# OpenSTLinux exposes its systemd-managed Weston socket here.
+export XDG_RUNTIME_DIR="/run/user/$(id -u)"
+export WAYLAND_DISPLAY=wayland-0
+
+while true; do
+    /usr/bin/slx-seabalance-panel --status /run/slx-seabalance --fullscreen \
+        --logo /usr/share/slx-seabalance/SLX_Official_Logo.png
+    sleep 2
+done

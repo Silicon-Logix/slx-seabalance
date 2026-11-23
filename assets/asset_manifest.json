@@ -1,0 +1,19 @@
+{
+  "copyright": "Copyright (c) 2026 Marco Pezzullo (Silicon LogiX)",
+  "author": "Marco Pezzullo",
+  "license": "LicenseRef-SLX-Evaluation-1.0",
+  "asset": "SLX SeaBalance",
+  "version": "0.1.0",
+  "runtime_file": "models/SLX_SeaBalance_Vessel_Runtime.glb",
+  "body_root": "SLX_Vessel_Root",
+  "port_fin_pivot": "SLX_Fin_Port_Pivot",
+  "starboard_fin_pivot": "SLX_Fin_Starboard_Pivot",
+  "fin_joint": {
+    "limit": 0.4363323129985824,
+    "gltf_local_rotation_axis": [
+      0,
+      0,
+      -1
+    ]
+  }
+}

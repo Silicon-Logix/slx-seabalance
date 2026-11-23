@@ -1,0 +1,12 @@
+Silicon LogiX / SLX SeaBalance
+Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+Author: Marco Pezzullo
+License: Silicon LogiX Evaluation License 1.0. See ../LICENSE.
+
+This notice covers the SeaBalance GLB assets under models/, the Silicon LogiX
+logo and SeaBalance icon under branding/, and the accompanying asset contracts.
+The public runtime vessel depicts a demonstration hull and its two stabilizer
+fins and is supplied for visualization and evaluation.
+
+The asset contract version is 0.1.0. Attribution and license information for
+the binary GLB, PNG and ICO files is provided in this notice.

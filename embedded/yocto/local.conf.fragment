@@ -1,0 +1,11 @@
+# Silicon LogiX / SLX SeaBalance
+# Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+# Author: Marco Pezzullo
+# License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+
+# OpenSTLinux 6.2.1 / openstlinux-6.6-yocto-scarthgap-mpu-v26.06.10
+INHERIT += "archiver"
+ARCHIVER_MODE[src] = "original"
+COPYLEFT_LICENSE_EXCLUDE:append = " CLOSED"
+IMAGE_FSTYPES:append:pn-slx-image-seabalance = " wic wic.bmap"
+WKS_FILE:pn-slx-image-seabalance = "${OPTEE_WIC_FILE}"

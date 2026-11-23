@@ -1,0 +1,16 @@
+# Silicon LogiX / SLX SeaBalance
+# Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+# Author: Marco Pezzullo
+# License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+
+/build/
+/core/
+/private/
+/board-state/
+/board-status/
+__pycache__/
+*.dll
+*.exe
+*.so
+*.so.*
+*.pdb
